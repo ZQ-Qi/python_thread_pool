@@ -1,0 +1,2 @@
+# python_thread_pool
+一种python3利用线程池实现多线程提高执行效率的方法
