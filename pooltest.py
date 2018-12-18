@@ -189,7 +189,7 @@ if __name__ == '__main__':
         if len(pool.generate_list) - len(pool.free_list) == 0:
             print("Task finished! Closing...")
             pool.close()
-            break;
+            break
         else:
             print("{} Threads still working.Wait.".format(len(pool.generate_list) - len(pool.free_list)))
             pass
